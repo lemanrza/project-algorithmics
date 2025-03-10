@@ -1,5 +1,262 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+.section-4{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #f5f5f5;
+    padding: 20px;
+    
 }
+.section-4 h3{
+    font-size: 55px;
+    font-weight: bold;
+    margin-bottom: 120px;
+    margin-left: 40px;  
+}
+.card-image-4 img{
+    width:399px; 
+    height: 160px;
+}
+.card-text-4 h5{
+    font-size: 30px;
+    font-weight: bold;
+    width: 365px;
+    height: 39px;
+    margin: 10px 0px 0px 20px;   
+}
+.first-text-4{
+    font-size: 25px;
+    margin:35px 0px 0px 20px ;   
+}
+.second-text-4{
+    font-size: 25px;
+    margin: 2px 0px 0px 20px ; 
+}
+.card-4{
+     width: 399px;
+    height: 328px;
+    border-radius: 30px;
+    background-color: white;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);     
+}
+.container-4{
+    display: grid;
+    grid-template-areas: 
+    "a b c"
+    "d e f"
+    "g h .";
+    gap:40px;
+    justify-content: center;
+    
+}
+.a { grid-area: a; }
+.b { grid-area: b; }
+.c { grid-area: c; }
+.d { grid-area: d; }
+.e { grid-area: e; }
+.f { grid-area: f; }
+.g { grid-area: g; }
+.h { grid-area: h; }
+@media (max-width:1279px ){
+.card-4{
+    width: 231.09px;
+    height: 189.97px;
+    border-radius: 17.38px;
+    box-shadow: 0.579167px 0.579167px 8.6875px rgba(0, 0, 0, 0.25);
+}
+.section-4 h3{
+    font-size: 32px;
+    margin-bottom: 70px;
+    margin-left: 25px;
+}
+.card-text-4 h5{
+    font-size: 17px;
+    width: 211.4px;
+    height: 41.12px;
+    margin: 5px 0px 0px 10px;
+}
+.first-text-4{
+    font-size: 14px;
+    margin: 2px 0px 0px 10px;
+}
+.second-text-4{
+    font-size: 14px;
+    margin: 2px 0px 0px 10px;
+}
+.container-4{
+    gap: 20px;
+    place-items: center;
+}
+.card-image-4 img{
+    width: 231.09px;
+    height: 92.67px;
+}
+}
+@media (min-width:320px) and (max-width:991px ){
+    
+.card-4{
+    width: 185.92px;
+    height: 152.84px;
+    box-shadow: 0.465972px 0.465972px 6.98958px rgba(0, 0, 0, 0.25);
+    border-radius: 13.9792px;
+    
+}
+.section-4 h3{
+    font-size: 26px;
+    margin-bottom: 70px;
+    margin-left: -20%;
+}
+.card-text-4 h5{
+    font-size: 14px;
+    width: 170.08px;
+    height: 18.17px;
+    margin: 5px 0px 0px 10px;
+}
+.first-text-4{
+    font-size: 12px;
+    margin: 15px 0px 0px 10px;
+}
+.second-text-4{
+    font-size: 12px;
+    margin: 0px 0px 0px 10px;
+}
+.card-image-4 img{
+    width: 185.92px;
+    height: 74.56px;
+}
+.container-4{
+   
+   display: flex;
+   flex-direction: column;
+   place-items: center;
+   
+}
+}
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.section-4 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #f5f5f5;
+    padding: 20px;
+    text-align: center;
+}
+
+.section-4 h3 {
+    font-size: 55px;
+    font-weight: bold;
+    margin-bottom: 120px;
+    margin-left: 40px;
+}
+
+.card-image-4 img {
+    width: 100%;
+    height: auto;
+    border-radius: 15px 15px 0 0;
+}
+
+.card-text-4 h5 {
+    font-size: 30px;
+    font-weight: bold;
+    margin: 10px 20px;
+}
+
+.first-text-4,
+.second-text-4 {
+    font-size: 25px;
+    margin: 5px 20px;
+}
+
+.card-4 {
+    width: 90%;
+    max-width: 400px; Maximum width to prevent excessive stretching
+    height: auto;
+    border-radius: 30px;
+    background-color: white;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
+    overflow: hidden;
+}
+
+.container-4 {
+    display: grid;
+    grid-template-areas:
+        "a b c"
+        "d e f"
+        "g h .";
+    gap: 40px;
+    justify-content: center;
+}
+
+.a { grid-area: a; }
+.b { grid-area: b; }
+.c { grid-area: c; }
+.d { grid-area: d; }
+.e { grid-area: e; }
+.f { grid-area: f; }
+.g { grid-area: g; }
+.h { grid-area: h; }
+
+Medium Screens
+@media (max-width: 1279px) {
+    .card-4 {
+        width: 80%;
+        max-width: 300px;
+        border-radius: 17px;
+    }
+
+    .section-4 h3 {
+        font-size: 32px;
+        margin-bottom: 70px;
+        margin-left: 25px;
+    }
+
+    .card-text-4 h5 {
+        font-size: 17px;
+        margin: 5px 10px;
+    }
+
+    .first-text-4,
+    .second-text-4 {
+        font-size: 14px;
+        margin: 5px 10px;
+    }
+    
+    .container-4 {
+        gap: 20px;
+    }
+}
+
+Mobile Screens
+@media (max-width: 991px) {
+    .container-4 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .card-4 {
+        width: 90%;
+        max-width: 250px;
+        border-radius: 14px;
+    }
+
+    .section-4 h3 {
+        font-size: 26px;
+        margin-bottom: 50px;
+        margin-left: 0;
+    }
+
+    .card-text-4 h5 {
+        font-size: 14px;
+    }
+
+    .first-text-4,
+    .second-text-4 {
+        font-size: 12px;
+    }
+} */
