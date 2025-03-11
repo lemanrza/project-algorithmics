@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
@@ -451,12 +453,270 @@
       width: 20px;
     }
   }
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+
+
+header {
+  font-family: Roboto;
+    margin: 9.3vw 12.5vw 20vw 9.3vw; 
+}
+
+.logo {
+    width: 13.9vw;
+}
+
+.wrapper {
+    display: flex;
+    height: 2.6vw;
+    margin-top: 11.8vw;
+}
+
+.globe, .clock, .calendar {
+    height: 2.6vw;
+}
+
+.wrapper p {
+    font-size: 2.6vw;
+    margin-left: 1.3vw;
+    margin-right: 2.6vw;
+}
+
+h1 {
+    width: 77.8vw;
+    font-family: 'Roboto Slab';
+    font-size: 9.8vw;
+    margin-top: 2.3vw;
+    line-height: 1;
+}
+
+.text-summary {
+    font-size: 2.6vw;
+    width: 55vw;
+    margin-top: 5.3vw;
+}
+
+.filmmaker {
+    width: 37.6vw;
+    margin-left: 43.1vw;
+}
+
+.blue-box {
+    width: 60vw;
+    height: 24.8vw;
+    background-color: #1E4681;
+    color: white;
+    font-family: 'Roboto Slab';
+    font-size: 2.9vw;
+    margin-top: 10.3vw;
+    border-radius: 0.6vw;
+    padding: 2.3vw 3.3vw 8.4vw;
+}
+
+.blue-box p:first-child {
+    width: 50vw;
+    height: 13.8vw;
+}
+
+.blue-box p:last-child {
+    font-family: Roboto;
+    text-align: right;
+    font-size: 2.6vw;
+    margin-top: 1.8vw;
+}
+
+.about {
+  font-family: Roboto;
+    margin: 20vw 8.1vw 20vw 9.6vw;
+}
+
+.about h2 {
+    font-family: 'Roboto Slab';   
+    font-weight: 700;
+    font-size: 6.9vw;
+    margin-bottom: 10vw;
+}
+
+.about p {
+    font-size: 3.2vw;
+    line-height: 1.5;
+}
+
+.about-p1 {
+    margin-bottom: 7vw;
+}
+
+.cameraman {
+    width: 45.4vw;
+    margin: 6.6vw 15vw;
+}
+
+.schedule h4 {
+    font-weight: 700;
+    font-size: 3.2vw;
+}
+
+.schedule p {
+    font-weight: 400;
+    font-size: 2.6vw;
+    width: 22vw;
+}
+
+
+.outer-container-2 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10vw;
+}
+.cameraman-2 {
+    display: none;
+}
+@media (min-width: 992px) {
+    header {
+        margin: 1.45vw 10.6vw 0vw 8.4vw;
+
+    }
+
+    .cameraman-2 {
+        display: block;
+    }
+    .logo {
+        width: 7.7vw;
+    }
+
+    .wrapper {
+        display: flex;
+        height: 1.4vw;
+        margin-top: 7vw;
+    }
+
+    .globe, .clock, .calendar {
+        height: 1.4vw;
+    }
+
+    .wrapper p {
+        font-size: 1.4vw;
+        margin-left: 0.5vw;
+        margin-right: 1.7vw;
+    }
+    
+    h1 {
+        width: 43.6vw;
+        font-family: 'Roboto Slab';
+        font-size: 5.5vw;
+        margin-top: 3vw;
+    }
+
+    .text-summary {
+        font-size: 1.4vw;
+        width: 29.7vw;
+        margin: 1.4vw 0vw 0vw 0vw;        
+    }
+
+    .filmmaker {
+        width: 21.1vw;
+        margin: 0vw;
+        margin-left: 10vw;
+    }
+
+    .outer-container {
+        display: flex;
+    }
+
+    .blue-box {
+        width: 33.5vw;
+        height: 13.8vw;
+        background-color: #1E4681;
+        color: white;
+        font-family: 'Roboto Slab';
+        font-size: 1.7vw;
+        margin-top: 6vw;
+        margin-left: 20vw;
+        border-radius: 0.3vw;
+        padding: 1.3vw 1.8vw 4.6vw; 
+    }
+
+    .blue-box p:first-child {
+        width: 29.8vw;
+        height: 7.8vw;
+    }
+
+
+    .blue-box p:last-child {
+        font-family: Roboto;
+        text-align: right;
+        font-size: 1.4vw;
+        margin-top: 1.8vw;
+    }
+
+    .about h2 {
+        font-family: 'Roboto Slab';   
+        font-weight: 700;
+        font-size: 3.8vw;
+        margin-bottom: 3vw;
+    }
+
+    .about p {
+        font-size: 1.6vw;
+   }
+   
+   .cameraman {
+    width: 21.8vw;
+    height: 21.8vw;
+    margin: 0vw;
+    }
+
+   .outer-container-1 {
+    display: flex;
+    justify-content: space-between;
+    }
+
+   .inner-container-1 {
+    width: 45.7vw;
+   }
+   .about-p1 {
+    margin-bottom: 3vw;
+   }
+   
+   .cameraman-2 {
+    width: 16.1vw;
+    height: 14vw;
+    margin-right: 6vw;
+    }
+
+
+   .schedule {
+    margin-top: 3vw; 
+    display: flex;
+    align-items: center;
+
+    }
+
+    .schedule p {
+        font-size: 1.25vw;
+    }
+   
+    .schedule h4 {
+    font-size: 2.7vw;
+    }
+    .outer-container-2 {
+        display: flex;
+        justify-content: space-around;
+        gap: 7vw;
+    }
+    .text-2 p {
+        width: 10.4vw;
+    }
+
+    .text-2 h4 {
+        font-size: 1.7vw;
+    }
+}
 /* LEMAN SECTION-6 */
 
 .course-section {
