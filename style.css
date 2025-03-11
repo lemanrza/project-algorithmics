@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
@@ -101,3 +102,664 @@
     width: 100%;
   }
 }
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+.section-4{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #f5f5f5;
+    padding: 20px;
+    
+    
+    
+}
+.section-4 h3{
+    font-size: 55px;
+    font-weight: bold;
+    margin-bottom: 120px;
+    margin-left: 10%;  
+}
+.card-image-4 img{
+    width: 100%;
+    height: 160px;
+}
+.card-text-4 h5{
+    font-size: 30px;
+    font-weight: bold;
+    width: 90%;
+    height: 39px;
+    margin: 10px 0px 0px 20px;   
+}
+.first-text-4{
+    font-size: 25px;
+    margin:35px 0px 0px 20px ;   
+}
+.second-text-4{
+    font-size: 25px;
+    margin: 2px 0px 0px 20px ; 
+}
+.card-4{
+    width: 29%;
+    height: 328px;
+    border-radius: 30px;
+    background-color: white;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);     
+}
+.container-4{
+    display: flex;
+    flex-wrap: wrap;
+    gap:40px;
+    width: 90%;
+    margin-left: 8%;
+}
+.a { grid-area: a; }
+.b { grid-area: b; }
+.c { grid-area: c; }
+.d { grid-area: d; }
+.e { grid-area: e; }
+.f { grid-area: f; }
+.g { grid-area: g; }
+.h { grid-area: h; }
+@media (max-width:1279px ){
+.card-4{
+    width: 29%;
+    height: 189.97px;
+    border-radius: 20.38px;
+    box-shadow: 0.579167px 0.579167px 8.6875px rgba(0, 0, 0, 0.25);
+}
+.section-4 h3{
+    font-size: 32px;
+    margin-bottom: 70px;
+    margin-left: 10%;
+}
+.card-text-4 h5{
+    font-size: 17px;
+    width: 90%;
+    height: 41.12px;
+    margin: 5px 0px 0px 10px;
+}
+.first-text-4{
+    font-size: 14px;
+    margin: 2px 0px 0px 10px;
+}
+.second-text-4{
+    font-size: 14px;
+    margin: 2px 0px 0px 10px;
+}
+.container-4{
+    gap: 20px;
+    place-items: center;
+}
+.card-image-4 img{
+    width: 100%;
+    height: 92.67px;
+}
+}
+@media  (max-width:991px ){   
+.card-4{
+    width: 39%;
+    height: 152.84px;
+    box-shadow: 0.465972px 0.465972px 6.98958px rgba(0, 0, 0, 0.25);
+    border-radius: 18.9792px;
+}
+.section-4 h3{
+    font-size: 26px;
+    margin-bottom: 70px;
+    margin-left: -10%;
+    text-align: center;
+}
+.card-text-4 h5{
+    font-size: 14px;
+    width: 90%;
+    height: 18.17px;
+    margin: 5px 0px 0px 10px;
+}
+.first-text-4{
+    font-size: 12px;
+    margin: 15px 0px 0px 10px;
+}
+.second-text-4{
+    font-size: 12px;
+    margin: 0px 0px 0px 10px;
+}
+.card-image-4 img{
+    width: 100%;
+    height: 74.56px;
+}
+.container-4{ 
+   display: flex;
+   flex-direction: column;
+   place-items: center;  
+}
+}
+
+@media (min-width:320px ) and ( max-width:600px ){
+    .card-4{
+        width: 185.92px;
+    }
+}
+
+.section-5 {
+    font-family: Roboto Slab;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #efefef;
+  }
+  
+  .section-5-container {
+    display: flex;
+    flex-direction: column;
+    gap: 75px;
+  }
+  
+  .section-5-title {
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 55.76px;
+    text-align: left;
+  }
+  
+  .section-5-bottom {
+    display: flex;
+  }
+  
+  .section-5-card {
+    background-color: white;
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    box-shadow: 1px 1px 20px 0px #00000040;
+    border-radius: 30px;
+    padding: 40px;
+  }
+  
+  .section-5-card p {
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+  }
+  
+  .section-5-card-footer {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+  }
+  
+  .section-5-card-content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .section-5-card-content h1 {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 30.42px;
+    text-align: left;
+  }
+  @media screen and (max-width: 1279px) {
+
+    #section-5 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .section-5-container {
+      display: flex;
+      flex-direction: column;
+      gap: 40px;
+    }
+  
+    .section-5-title {
+      font-size: 32px;
+      font-weight: 700;
+      line-height: 32.44px;
+      text-align: left;
+    }
+  
+    .section-5-bottom {
+      display: flex;
+    }
+  
+    .section-5-card {
+      width: 75%;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      box-shadow: 1px 1px 20px 0px #00000040;
+      border-radius: 30px;
+      padding: 26px;
+    }
+  
+    .section-5-card p {
+      font-family: Roboto;
+      font-size: 12px;
+      font-weight: 400;
+      line-height: 18px;
+      text-align: left;
+    }
+  
+    .section-5-card-footer {
+      display: flex;
+      align-items: center;
+      gap: 18px;
+    }
+  
+    .section-5-card-footer>img {
+      width: 110px;
+    }
+  
+    .section-5-card-content {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+  
+    .section-5-card-content h1 {
+      font-size: 17px;
+      font-weight: 700;
+      line-height: 17.24px;
+      text-align: left;
+    }
+  
+    .section-5-card-content img {
+      width: 20px;
+    }
+  }
+  
+  @media screen and (max-width: 991px) {
+    .testimonials-card {
+      width: 100%;
+    }
+  }
+  
+  @media screen and (max-width: 375px) {
+  
+    #section-5 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .section-5-container {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+  
+    .section-5-title {
+      font-size: 26px;
+      font-weight: 700;
+      line-height: 26.36px;
+      text-align: left;
+    }
+  
+    .section-5-bottom {
+      display: flex;
+    }
+  
+    .section-5-card {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      box-shadow: 1px 1px 20px 0px #00000040;
+      border-radius: 30px;
+      padding: 26px;
+    }
+  
+    .section-5-card p {
+      font-family: Roboto;
+      font-size: 10px;
+      font-weight: 400;
+      line-height: 15px;
+      text-align: left;
+    }
+  
+    .section-5-card-footer {
+      display: flex;
+      align-items: center;
+      gap: 18px;
+    }
+  
+    .section-5-card-footer>img {
+      width: 80px;
+    }
+  
+    .section-5-card-content {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+  
+    .section-5-card-content h1 {
+      font-size: 14px;
+      font-weight: 700;
+      line-height: 14.19px;
+      text-align: left;
+    }
+  
+    .section-5-card-content {
+      width: 20px;
+    }
+  }
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* LEMAN SECTION-6 */
+
+.course-section {
+    width: 100%;
+    height: 100vh;
+    background-color: #9dc9c8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5vh 10vw;
+    font-family: "Roboto";
+
+}
+
+.course-title {
+    font-size: 3em;
+    font-weight: bolder;
+    margin-bottom: 4vh;
+    font-family: "Roboto Slab";
+}
+
+.price-label {
+    font-size: 1.5em;
+}
+
+.price {
+    font-size: 4.2em;
+    margin-bottom: 6vh;
+}
+
+.details {
+    display: flex;
+    gap: 4rem;
+}
+
+.level-info,
+.access-info {
+    width: 25%;
+}
+
+.level-info h3 {
+    font-size: 1.6em;
+    font-weight: normal;
+}
+
+.access-info h3 {
+    font-size: 1.6em;
+    font-weight: normal;
+}
+
+.details p {
+    font-size: 1em;
+    color: black;
+    margin-top: 10px;
+}
+
+/* LEMAN FOOTER */
+
+footer {
+    background-color: black;
+    color: white;
+    /* min-width: 350px; */
+}
+
+.footer-info {
+    width: 85%;
+    margin: 0 auto;
+    padding-top: 45px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 145px;
+}
+
+#logo {
+    width: 105px;
+    height: 64px;
+    margin-bottom: 25px;
+}
+
+.social {
+    display: flex;
+    align-items: center;
+    gap: 19px;
+}
+
+.social img {
+    width: 32px;
+    height: 32px;
+}
+
+.phone img {
+    width: 25px;
+    height: 25px;
+}
+
+.email img {
+    width: 25px;
+    height: 17px;
+}
+
+.contact {
+    padding-right: 75px;
+}
+
+.contact p {
+    font-size: 1.4rem;
+}
+
+.footer-head {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-about {
+    display: flex;
+    flex-direction: column;
+}
+
+.phone {
+    margin-bottom: 15px;
+}
+
+.phone,
+.email {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.copyright {
+    color: white;
+    margin-bottom: 30px;
+    font-size: 18px;
+    font-family: "Roboto";
+}
+
+/* LEMAN SECTION-6 VE FOOTER TABLET */
+@media screen and (max-width: 1279px) {
+    .course-section {
+        padding: 2.5rem 5vw;
+        width: 100%;
+    }
+
+    .course-title {
+        font-size: 2.4em;
+    }
+
+    .price-label {
+        font-size: 1em;
+    }
+
+    .price {
+        font-size: 3.5em;
+    }
+
+    .level-info,
+    .access-info {
+        width: 18%;
+    }
+
+    .level-info h3 {
+        font-size: 14px;
+    }
+
+    .access-info h3 {
+        font-size: 14px;
+    }
+
+    .details p {
+        font-size: 10px;
+        color: black;
+        margin-top: 10px;
+    }
+
+    .footer-info {
+        width: 90%;
+        gap: 100px;
+    }
+
+    #logo {
+        width: 66px;
+        height: auto;
+    }
+
+    .social {
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .social img {
+        width: 20px;
+        height: 20px;
+    }
+
+    .phone img,
+    .email img {
+        width: 15px;
+        height: auto;
+    }
+
+    .contact {
+        padding-right: 0;
+    }
+
+    .contact p {
+        font-size: 14px;
+    }
+
+    .copyright {
+        font-size: 10px;
+    }
+}
+
+/* LEMAN SECTION-6 VE FOOTER MOBILE */
+@media screen and (min-width: 320px) and (max-width: 991px) {
+    .course-section {
+        font-size: 32px;
+        padding: 2rem 10vw;
+        width: 100%;
+        align-items: start;
+        height: 70vh;
+
+    }
+
+    .course-title {
+        align-items: center;
+        font-size: 26px;
+    }
+
+    .price-label {
+        font-size: 12px;
+    }
+
+    .price {
+        font-size: 37px;
+    }
+
+    .level-info,
+    .access-info {
+        width: 50%;
+    }
+
+    .level-info h3 {
+        font-size: 12px;
+    }
+
+    .access-info h3 {
+        font-size: 12px;
+    }
+
+    .details {
+        justify-content: start;
+    }
+
+    .details p {
+        font-size: 10px;
+        color: black;
+        margin-top: 10px;
+    }
+
+    .footer-info {
+        width: 100%;
+        padding: 20px;
+        gap: 50px;
+    }
+
+    .footer-head {
+        flex-direction: column;
+        gap: 70px;
+    }
+
+    .social {
+        justify-content: start;
+        gap: 12px;
+    }
+
+    .social img {
+        width: 24px;
+        height: 24px;
+    }
+
+    .contact {
+        padding-right: 0;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .phone img,
+    .email img {
+        width: 18px;
+        height: auto;
+    }
+
+    .contact p {
+        font-size: 12px;
+    }
+
+    .copyright {
+        font-size: 10px;
+        margin-bottom: 20px;
+    }
+
+}
+
