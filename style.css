@@ -113,17 +113,11 @@ h1 {
     width: 22vw;
 }
 
-.schedule {
-    display: flex;
-    flex-wrap: wrap;
-    /* flex-direction: row; */
-    gap: 8.8vw;
-}
+
 .outer-container-2 {
     display: flex;
     flex-wrap: wrap;
-    flex-direction: row;
-    gap: 5vw;
+    gap: 10vw;
 }
 .cameraman-2 {
     display: none;
@@ -168,13 +162,11 @@ h1 {
         font-size: 1.4vw;
         width: 29.7vw;
         margin: 1.4vw 0vw 0vw 0vw;        
-        /* display: inline-block; */
     }
 
     .filmmaker {
         width: 21.1vw;
         margin: 0vw;
-        /* margin-bottom: 10vw; */
         margin-left: 10vw;
     }
 
@@ -208,10 +200,6 @@ h1 {
         margin-top: 1.8vw;
     }
 
-    /* .about { */
-        /* margin: 12vw 10.6vw 0vw 8.4vw; */
-    /* } */
-
     .about h2 {
         font-family: 'Roboto Slab';   
         font-weight: 700;
@@ -244,6 +232,7 @@ h1 {
    .cameraman-2 {
     width: 16.1vw;
     height: 14vw;
+    margin-right: 6vw;
     }
 
 
@@ -264,7 +253,7 @@ h1 {
     .outer-container-2 {
         display: flex;
         justify-content: space-around;
-        gap: 4vw;
+        gap: 7vw;
     }
     .text-2 p {
         width: 10.4vw;
